@@ -1,0 +1,9 @@
+node_modules/
+bower_components/
+.sass-cache/
+www/html
+www/main.css
+www/main.js
+.DS_Store
+.idea/
+npm-debug.log
