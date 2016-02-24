@@ -1,0 +1,32 @@
+.index
+    .nav
+        position: fixed
+        top: 0
+        bottom: 0
+        background: url("images/background-cover.jpg")
+        transition: 0.5s
+        z-index: 5
+        width: 100%
+        .nav_content
+            padding: 0 60px
+            margin: 0 auto
+            max-width: 640px
+            text-align: center
+            color: #fff
+            a
+                color: #fff
+    .navActive
+        width: 30%
+    .content
+        width: 50%
+        margin: 0 10%
+        padding: 50px 0
+        float: right
+        transition: 0.8s
+        transition-delay: 0.4s
+        -webkit-transition-delay: 0.4s
+        opacity: 0
+        transform: translate(150px,0)
+    .content_end
+        opacity: 1
+        transform: translate(0,0)
